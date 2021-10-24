@@ -5,7 +5,7 @@ internal object PluginExample: Plugin() {
     override fun onLoad() {
         // Load any modules, commands, or HUD elements here
         //hudElements.add(CustomTextHud)
-        modules.add(ModuleTest)
+        modules.add(CustomTextHud)
     }
 
     override fun onUnload() {
